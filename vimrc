@@ -57,6 +57,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" i18n support
+let &termencoding = &encoding
+set encoding=utf-8
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
